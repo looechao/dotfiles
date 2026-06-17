@@ -1,0 +1,19 @@
+.DS_Store
+*.swp
+*.swo
+*.tmp
+*.bak
+
+# Local-only secrets and machine-specific overrides.
+.env
+.env.*
+*.key
+*.pem
+*.p12
+*.mobileprovision
+
+# Common editor/cache noise.
+.cache/
+.local/
+node_modules/
+
